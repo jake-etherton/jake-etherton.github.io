@@ -1,0 +1,90 @@
+/* 
+	Jake Etherton 3/9/2023 styles.css
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav {
+    background-color: darkslategrey;
+    color: lavenderblush;
+    text-align: center;
+	padding: 15px 10px 15px 15px;
+    font-size: 24px;
+}
+
+body {
+    background-color: darkslategrey;
+}
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: goldenrod;
+}
+
+a:link {
+	color: lavenderblush;
+}
+
+a:hover {
+	background-color: slategrey;
+}
+	
+
+h1 {
+    background-color: Tomato;
+    color: lavenderblush;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-align: center;
+    font-style:italic;
+    font-size: 50px;
+}
+
+
+.main {
+    background-color:lavenderblush;
+    font-family: Helvetica;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid darkslategrey;
+    padding: 10px 10px 150px 10px;
+}
+
+.pizzaman {
+    padding: 10px 10px 100px 10px;
+    width: 200px;
+    float:left;
+}
+
+footer {
+    background-color: goldenrod;
+    margin: 0px;
+	padding: 10px 10px 10px 0px;
+}
+
+.container {
+    margin:auto;
+    width:80%;
+    background-color: lavenderblush;
+    padding:25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  
+  }
+
+  h2 {text-align: center}
+
+label {
+  display:block;
+  margin-bottom: 5px;
+}
+
+.pizzaPics {
+    float:none;
+    position:relative;
+}

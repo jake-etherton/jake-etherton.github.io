@@ -1,0 +1,73 @@
+<!--Jake Etherton
+    schedule.html
+    3/9/23-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Services</a>
+        <a href="schedule.html">Schedule</a>
+    </nav>
+   
+    <div class="container">
+        <h1>Leave your info and we'll be in touch!</h1>
+        <form action="thankyou.html" method="get">
+          <fieldset>
+          <legend>Contact Info</legend>
+          <!--name-->
+          <label for="firstName">Name: 
+            <input type="text" name="userName" id="firstName" 
+            placeholder="Enter Your Name" autofocus required>
+          </label>
+
+          <!--Email-->
+          <label for="email">Email
+          <input type="email" name="userEmail" id="email"
+          placeholder="Enter Your Email" required>
+          </label>
+            </fieldset>
+    
+
+
+          <legend>What Restaurant?</legend>
+          <textarea name="text" id="text" cols="30" rows="10">Enter text here.</textarea><br>
+          
+          <legend>Pizza Type</legend>
+          <select name="pizza" id="pizza">
+            <option value="cheese">Cheese</option>
+            <option value="pepperoni">Pepperoni</option>
+            <option value="pineapple">Pineapple</option>
+          </select><br>
+
+          <p>Cheese Bread?</p>
+          <input type="radio" id="yes" name="bread" value="Yes">
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="bread" value="No">
+          <label for="no">No</label><br>  
+          
+          <legend>Today's Date</legend>
+          <input type="date" name="date" id="date"
+          placeholder="Enter today's date"><br>
+
+          <input type="submit" value="Submit"><br>
+    </div>
+
+    <audio controls>
+        <source src="bell.mp3" type="audio/mpeg">
+        Sound cannot be played.
+    </audio>
+
+    <footer>
+        <p> Email: freelancepizza@gmail.com Phone: (123)456-7890</p>
+    </footer>
+
+  </body>
+</html>

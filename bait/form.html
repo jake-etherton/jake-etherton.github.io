@@ -1,0 +1,62 @@
+<!--Jake Etherton
+    form.html
+    3/27/2023-->
+    
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/911885657f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <header>
+            <img class="logo" src="logo.png" alt="Lakeside General Store">
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="prices.html">Bait</a>
+            <a href="form.html">Contact</a>
+        </nav>
+        
+        <div class="main">
+            <br><h1>Leave your info with questions you may have.</h1>
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                <legend>Contact Info</legend>
+                
+                <label for="firstName">Name: 
+                    <input type="text" name="userName" id="firstName" 
+                    placeholder="Enter Your Name" autofocus required>
+                </label>
+
+                <label for="email">Email
+                <input type="email" name="userEmail" id="email"
+                placeholder="Enter Your Email" required>
+                </label>
+                    </fieldset>
+
+                <p>Comments</p>
+                <textarea name="text" id="text" cols="30" rows="10">Enter text here.</textarea><br>
+
+                <input type="submit" value="Submit"><br>
+
+                <img src="building.png" alt="store building">
+            </form>
+        </div>
+        <footer>
+                <p>1919 Croft Rd,
+                    Springfield, OH 45503
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    Email: howardslakeside@gmail.com
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Phone: (937)505-1037
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+                </p>
+                    <a href="https://m.facebook.com/people/Howards-Lakeside-General-Store/100057407261126/"><i class="fab fa-facebook-f"></i></a>
+        </footer>
+    </body>
+</html>

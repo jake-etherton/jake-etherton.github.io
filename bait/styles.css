@@ -1,0 +1,77 @@
+/* 
+	Jake Etherton 3/27/2023 styles.css
+*/
+
+body {
+    background-color: darkslategrey;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.logo {
+    border-radius: 15px;
+}
+
+img {
+    border-style:solid;
+    border-color:black;
+}
+header {
+   text-align: center;
+   background-color:#996633;
+}
+
+nav {
+    text-align: center;
+    background-color:white;
+    padding: 15px 10px 15px 15px;
+    font-size: 18px;
+    position:fixed;
+    width:100%;
+    height:1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+	color: darkslategray;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover {
+	background-color: lightslategrey;
+}
+
+footer {
+    text-align: center;
+    background-color:#996633;
+    border-top: thick white;
+    color: white;
+}
+
+.main {
+    background-color: #c2d6d6;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    color: darkslategrey;
+}
+ul {
+    list-style-position: inside;
+    list-style-type:none;
+}
+
+h2 {
+    color:darkslategrey;
+}
